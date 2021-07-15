@@ -14,7 +14,7 @@
   bottom: $margin / 3;
   padding: .5em 1em;
   border-radius: $border-radius;
-  background: $primary;
+  background: darken($primary, 10%);
   box-shadow: 0 10px 10px rgba($black, .5);
   color: $pure-white;
   font-size: 14px;
@@ -25,5 +25,9 @@
 
   &--error {
     background: $red;
+  }
+
+  &--warning {
+    background: darken($orange, 8%);
   }
 }
